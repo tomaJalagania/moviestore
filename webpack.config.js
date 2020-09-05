@@ -48,6 +48,14 @@ const loaders = () => {
         },
       },
     },
+    {
+      test: /\.(ttf|otf|png|jpe?g|gif|svg)$/i,
+      use: [
+        {
+          loader: "file-loader",
+        },
+      ],
+    },
   ];
 
   return loader;
@@ -69,6 +77,8 @@ module.exports = {
   devServer: {
     port: 3000,
     hot: true,
+    contentBase: path.resolve(__dirname, "dist"),
+    publicPath: "/",
   },
   module: {
     rules: loaders(),

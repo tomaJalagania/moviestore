@@ -1,0 +1,8 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="66px" height="27px">
+<path fill-rule="evenodd"  fill="rgb(216, 35, 42)"
+ d="M61.000,27.000 L5.000,27.000 C2.239,27.000 -0.000,24.761 -0.000,22.000 L-0.000,9.000 C-0.000,6.238 2.239,4.000 5.000,4.000 L29.006,4.000 L33.006,0.007 L37.006,4.000 L61.000,4.000 C63.761,4.000 66.000,6.238 66.000,9.000 L66.000,22.000 C66.000,24.761 63.761,27.000 61.000,27.000 Z"/>
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="13px" x="9px" y="20.988px"><tspan font-size="13px" font-family="Adobe Gothic Std" fill="#FFFFFF">movies</tspan></text>
+</svg>

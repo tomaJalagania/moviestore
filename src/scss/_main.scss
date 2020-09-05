@@ -1,7 +1,28 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 1rem;
 }
 *,*::before , *::after {
     box-sizing: border-box;
+}
+@font-face {
+    font-family: "Adobe Gothic Std";
+    src: url(../fonts/AdobeGothicStd-Bold.otf);
+}
+body {
+    font-size: calc(1vw + 0.14em);
+}
+h1,h2,h3,h4,h5,h6,a,p,span {
+    font-size: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul, ol {
+    list-style: none;
+}
+img {
+    width: 100%;
 }
