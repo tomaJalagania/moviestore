@@ -2,10 +2,9 @@
     position: relative;
     width: 100%;
     background: 1px solid black;
-    height: 33.13em;
+    
     &-items {
-        padding-top: 1.9em;
-        padding-bottom: 1.9em;
+       padding: 17em 1.9em;
         position: absolute;
         top:0;
         left:0;
@@ -14,7 +13,7 @@
         background-image: url('../img/sliderbg.png');
         background-size: cover;
         .rejisor {
-            position: relative;
+            margin-top: -2em;
             &-item {
                 display: block;
                 width: 10px;
@@ -22,6 +21,27 @@
                 background-color: $whiteCollor;
                 margin-bottom: 1em;
                 border-radius: 50%;
+            }
+            .imgs {
+                display: flex;
+                align-items: center;
+                background: none;
+                margin-bottom: 1em;
+                margin-left: -0.5em;
+                .caputre{
+                    width: 2em;
+                    height: 2em;
+                    border: 2px solid $redColor;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    margin-right: 1em;
+                }
+            }
+            &-name {
+                color: $whiteCollor;
+                font-family: $adobeFont;
+                margin-right: 0.5em;
+                text-transform: capitalize;
             }
         }
     }
@@ -87,5 +107,19 @@
                 margin-left: 0.5em;
             }
         }
+    }
+    &-btn {
+        border: none;
+        background-color: $redColor;
+        color: $whiteCollor;
+        font-family: $adobeFont;
+        text-transform: uppercase;
+        padding: 1em 1.5em;
+        border-radius: 10px;
+    }
+    .xypos {
+        margin-right: 5em;;
+        text-align: right;
+        margin-top: -2em;
     }
 }
