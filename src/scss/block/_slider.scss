@@ -1,0 +1,91 @@
+.slider {
+    position: relative;
+    width: 100%;
+    background: 1px solid black;
+    height: 33.13em;
+    &-items {
+        padding-top: 1.9em;
+        padding-bottom: 1.9em;
+        position: absolute;
+        top:0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        background-image: url('../img/sliderbg.png');
+        background-size: cover;
+        .rejisor {
+            position: relative;
+            &-item {
+                display: block;
+                width: 10px;
+                height: 10px;
+                background-color: $whiteCollor;
+                margin-bottom: 1em;
+                border-radius: 50%;
+            }
+        }
+    }
+    &-panel {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left:0;
+        right: 0;
+        bottom: 0;
+        padding:1em 1.9em;
+        &::before {
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: black;
+            opacity: 0.3;
+        }
+        .credentials{
+            z-index: 10;
+            .whitetext {
+                color: $whiteCollor;
+                text-transform: uppercase;
+                font-family: $adobeFont; 
+                opacity: 1 !important;
+            }
+            .redtext {
+                color: $redColor;
+                text-transform: uppercase;
+                font-family: $calibriFont;
+                margin-right: 1em;
+                opacity: 1 !important;
+            }
+            .box-rating {
+                display: inline-block;
+                opacity: 1 !important;
+                .star {
+                    width: 1em;
+                    height: 0.9em;
+                    fill: $whiteCollor;
+                    fill-rule: evenodd;
+                }
+                .red-star {
+                    stroke: $redColor;
+                    fill: $redColor;
+                    fill-rule: nonzero;
+                }
+            }
+        }
+        .likes{
+            z-index: 10;
+            color: $whiteCollor;
+            font-family: $adobeFont;
+
+            &-heart-count {
+                margin-right: 1em;
+                margin-left: 0.5em;
+            }
+            &-count {
+                margin-left: 0.5em;
+            }
+        }
+    }
+}

@@ -10,6 +10,10 @@
     font-family: "Adobe Gothic Std";
     src: url(../fonts/AdobeGothicStd-Bold.otf);
 }
+@font-face {
+    font-family: "Calibri";
+    src: url(../fonts/calibri.ttf);
+}
 body {
     font-size: calc(1vw + 0.14em);
 }
