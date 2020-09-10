@@ -1,0 +1,32 @@
+.search {
+    position: relative;
+    
+    margin-top:34em;
+    padding:2.5em 1.9em;
+    
+    z-index: 100;
+   .input{
+       
+       padding: 0.7 1em 0.7em 0;
+       font-family: "Calibri";
+       border: none;
+       border-bottom:1px solid $svgStrokeColor ;
+       color: $redColor;
+       position: absolute;
+       width: 30%;
+       padding-right: 1.9em;
+       right: 1.9em;
+    }
+    .btn {
+        position: absolute;
+        right:  1.9em;
+        bottom: 0;
+        transform: translateY(-80%);;
+        border: none;
+        background: none;
+        span {
+            font-size: 1.2em;
+        }
+        
+    }
+}
